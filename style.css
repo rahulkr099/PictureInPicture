@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    
+}
+.text{
+    position: fixed;
+    top:60%;
+    left:42%;
+    text-align: center;
+}
+button{
+    font-size: 2rem;
+    /* background-color: cornflowerblue; */
+    border-radius: 10px;
+    border: none;
+    padding: .4rem;
+    box-shadow: inset 2px 3px 2px 2px grey; 
+    position: fixed;
+    top:50%;
+    left:50%;
+}
+button:hover{
+    background-color: rgb(1, 1, 1);
+    color: white;
+}
